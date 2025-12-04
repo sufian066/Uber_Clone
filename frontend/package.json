@@ -1,0 +1,25 @@
+{
+  "name": "uber-clone-frontend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next dev ",
+    "test": "jest",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "vite": "^6.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "jest": "^30.2.0",
+    "next": "^13.5.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
